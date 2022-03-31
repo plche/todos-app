@@ -4,9 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const title = "To-Do(s): A React💙 App"
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App title={title}/>
   </React.StrictMode>,
   document.getElementById('root')
 );
